@@ -1,0 +1,23 @@
+# Local account and user data
+users.json
+wellness_ledger_data*
+*.db
+*.sqlite
+*.sqlite3
+
+# Secrets and Python environment
+.streamlit/secrets.toml
+.env
+.env.*
+!.env.example
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+
+# Python model artifacts (keep these if needed to run the app)

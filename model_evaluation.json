@@ -1,0 +1,45 @@
+{
+  "synthetic_samples": 5000,
+  "test_samples": 1000,
+  "holdout": {
+    "mae": 2.605002003530524,
+    "rmse": 3.3157405895457353,
+    "r2": 0.9446664471503785
+  },
+  "baselines": {
+    "Linear Regression": {
+      "mae": 3.541064427630432,
+      "rmse": 5.001484536178929,
+      "r2": 0.87410011728418
+    },
+    "Gradient Boosting": {
+      "mae": 2.20883364537314,
+      "rmse": 2.757852672924672,
+      "r2": 0.96172020627442
+    },
+    "Mean baseline": {
+      "mae": 11.30289230784012,
+      "rmse": 14.097368631132419,
+      "r2": -0.00023852386572187356
+    },
+    "Rule-based formula": {
+      "mae": 2.0052490306516897,
+      "rmse": 2.5087928312699397,
+      "r2": 0.9683220503010701
+    },
+    "Random Forest": {
+      "mae": 2.605002003530524,
+      "rmse": 3.3157405895457353,
+      "r2": 0.9446664471503785
+    }
+  },
+  "cv": {
+    "mae_mean": 2.627685730706149,
+    "mae_sd": 0.055410795134652364,
+    "rmse_mean": 3.321873584352315,
+    "rmse_sd": 0.06759504310804794,
+    "r2_mean": 0.9458314420379776,
+    "r2_sd": 0.0023311621773788177
+  },
+  "interpretation": "Targets are synthetic scores generated from a rule-based formula. Metrics describe agreement with that formula-derived target, not validated real-world financial outcomes."
+}
