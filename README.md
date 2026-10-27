@@ -109,11 +109,3 @@ Random Forest 5-fold cross-validation: R² 0.946 ± 0.002. Running `python train
 - **SHAP.** SHAP values describe how features contribute to the model's prediction compared with its training baseline. They do not show cause and effect and say nothing about a person's worth.
 - **Not financial advice.** This is an educational decision-support prototype. Do not use it for credit, lending, eligibility or other high-stakes decisions.
 
-## Before a demo
-
-- Use a fake demo account with realistic sample figures.
-- Delete old test data (for example any check-in for a very old month) or start with a fresh `wellness_ledger_data.db`.
-- Do not expose a real `users.json` file or real account credentials.
-- Run `python train_model.py` after changing feature engineering or the training target.
-- Test the recovery email setup, or skip showing account recovery.
-- Open the Guide page and say clearly that the score is based on synthetic data.
